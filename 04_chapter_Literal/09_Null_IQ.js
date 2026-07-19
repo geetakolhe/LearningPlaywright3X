@@ -1,0 +1,1 @@
+let no_audi_Geet_mam = null; // data type is null
