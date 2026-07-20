@@ -1,6 +1,7 @@
 # Taste (Continuously Learned by [CommandCode][cmd])
 
 [cmd]: https://commandcode.ai/
+
 
 # iq-notes
 - When user asks for concept explanations, save them as `.md` files in the `IQ_Notes` folder with a comparison table and key takeaways. Confidence: 0.75
