@@ -10,3 +10,6 @@
 - When user asks for concept explanations, save them as `.md` files in the `IQ_Notes` folder with a comparison table and key takeaways. Confidence: 0.75
 - For concept explanations in IQ_Notes: Use format with comparison table, code/file example walkthrough, pipeline diagram, and TL;DR section following the style of `Source_Code_ByteCODE_Binary_IQ.md`. Confidence: 0.70
 
+# git
+- Prefers assistant to commit and push changes to the specified GitHub remote when asked to "commit the changes, and push." Uses `git add -A`, `git commit`, and `git push` workflow. Confidence: 0.8
+
