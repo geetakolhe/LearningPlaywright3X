@@ -41,3 +41,8 @@ temp/
 # Test coverage
 coverage/
 .pytest_cache/
+
+# Playwright test artifacts
+test-results/
+playwright-report/
+blob-report/
