@@ -28,6 +28,9 @@ A structured series of JavaScript practice exercises organized by topic, buildin
 | 20 | `20_Chapter_OOPs` | OOP Basics | Classes, objects, public/private fields, methods |
 | 21 | `21_OOps_Encapsulation` | Encapsulation | Data protection and modular class design |
 | 22 | `22_OOPS_Inheritance` | Inheritance | Parent-child classes, reuse, and method overriding |
+| 23 | `23_Chapter_Polymorphism` | Polymorphism | Method overriding and runtime behavior |
+| 24 | `24_OOPs_Intervew` | OOP Interview Practice | Interview-style examples and OOP exercises |
+| 25 | `25_TypeScript` | TypeScript Basics | Static typing, annotations, and TS execution |
 
 ### Learning path
 
@@ -35,6 +38,29 @@ A structured series of JavaScript practice exercises organized by topic, buildin
 - **Ch 09–15** — Loops, arrays, functions, strings, objects, and nested structures
 - **Ch 16–19** — Async programming and modular JavaScript
 - **Ch 20–22** — Object-oriented programming, encapsulation, and inheritance
+- **Ch 23–25** — Polymorphism, OOP interview practice, and TypeScript fundamentals
+
+## TypeScript Notes
+
+This project also contains TypeScript hands-on files in `25_TypeScript/`.
+
+### Common commands
+
+```bash
+# compile TypeScript
+npx tsc "25_TypeScript/184.ts"
+
+# run compiled JS
+node "25_TypeScript/184.js"
+
+# run TypeScript without manual compile (recommended for learning)
+npx tsx "25_TypeScript/195.ts"
+```
+
+Examples in this section include:
+- `184.ts` — basic variable typing and function return type
+- `185.ts` — simple TypeScript execution test
+- `195.ts` — TypeScript script execution using `tsx`
 
 ## IQ Notes
 
