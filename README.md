@@ -4,26 +4,37 @@ A structured series of JavaScript practice exercises organized by topic, buildin
 
 ## Chapters
 
-| Ch | Topic | Files |
-|----|-------|-------|
-| 01 | JavaScript Basics | `01_HellowWorld.js` |
-| 02 | JavaScript Fundamentals | `02_let_concept.js` |
-| 03 | Identifiers & Comments | `03_Identifer_Rules.js`, `04_Identifier_Rules_Part2.js`, `05_Comments.js`, `06.Identifier_IQ.js` |
-| 04 | Literals & Data Types | `07_Literals.js`, `08_null_undefined.js`, `09_Null_IQ.js`, `10_Literal.js`, `11_Number.js`, `12_number_Part2.js` |
-| 05 | Operators | `13_DataType.js`, `14_Assignment_Operator.js`, `15_Arithmetic_Operator.js`, `16_Comparison_Operator.js`, `17_Logical_Operator.js`, `18_Confusing_Comparison.js`, `18_Confusing_Comparison_P2.js`, `20_Question.js`, `21_String_Operator.js`, `22_Ternary_Operator.js`, `23_IQ.js`–`30_NT_IQ2.js`, `31_Type_Op.js`, `32_In_De_Op.js`, `33_Ad_Incre.js`–`36_Null_Coalescing.js` (24 files) |
-| 06 | Statements | `37_IQ.js`, `38_IQ2.js`, `38_Multiple_Conditions.js` |
-| 07 | Switch Statements | `39_Switch.js`, `40_IQ.js`–`47_IQ4.js` (9 files, includes real API testing example) |
-| 08 | User Inputs | `48_JS.js`, `49_Node_UI.js`, `50_Prompt.js`, `51_Fs.js` |
+| Ch | Folder | Topic | Coverage |
+|----|--------|-------|----------|
+| 01 | `01_chapter_Javascript` | JavaScript Basics | Hello World, syntax basics, first scripts |
+| 02 | `02_chapter_Javascript` | Variables & Fundamentals | `let`, variable concepts and declarations |
+| 03 | `03_chapter_Identifer` | Identifiers & Comments | Naming rules, conventions, comments, IQ exercises |
+| 04 | `04_chapter_Literal` | Literals & Data Types | Numbers, strings, booleans, `null`, `undefined` |
+| 05 | `05_chapter_Operator` | Operators | Arithmetic, comparison, logical, ternary, type, increment/decrement |
+| 06 | `06_chapter_Statement` | Statements & Conditions | `if`, conditions, multiple condition logic |
+| 07 | `07_chapter_switch` | Switch Case | `switch` statements, grouping cases, API testing practice |
+| 08 | `08_chapter_UserInputs` | User Input | `prompt`, Node input, file read examples |
+| 09 | `09_chapter_Loops` | Loops | `for`, `while`, `do while`, nested loops |
+| 10 | `10_chapter_Arrays` | Arrays | Creation, traversal, transformation, sorting, slicing |
+| 11 | `11_chapter_Function` | Functions | Function basics, hoisting, function types |
+| 12 | `12_chapter_Fn_Clouser` | Closures & Functions | Scope behavior, closures, advanced function patterns |
+| 13 | `13_chapter_String` | Strings | String methods, transformations, manipulation |
+| 14 | `14_Chapter_Objects` | Objects | Object creation, properties, methods, object patterns |
+| 15 | `15_Multi_Dimenstion_Array` | Multi-Dimensional Arrays | Nested arrays and matrix-style data |
+| 16 | `16_Chapter_Callback` | Callback Functions | Higher-order functions and callback-driven logic |
+| 17 | `17_Chapter_Promise` | Promises | Promise creation, chaining, async pattern practice |
+| 18 | `18_Chapter_Async_Await` | Async/Await | `async`, `await`, multiple async flows, Playwright examples |
+| 19 | `19_Chapter_Export_Import` | Modules | ES module exports/imports and reusable code |
+| 20 | `20_Chapter_OOPs` | OOP Basics | Classes, objects, public/private fields, methods |
+| 21 | `21_OOps_Encapsulation` | Encapsulation | Data protection and modular class design |
+| 22 | `22_OOPS_Inheritance` | Inheritance | Parent-child classes, reuse, and method overriding |
 
-### Topics covered
+### Learning path
 
-- **Ch 01–02** — Hello World, `let`, `const`, variable basics
-- **Ch 03** — Identifier naming rules, comments, and knowledge checks
-- **Ch 04** — Literals, `null` vs `undefined`, number handling
-- **Ch 05** — Assignment, arithmetic, comparison, logical, string, ternary, type, increment/decrement, and nullish coalescing operators
-- **Ch 06** — Conditional statements and multiple condition logic
-- **Ch 07** — `switch`/`case`, grouping cases, and a real API testing exercise
-- **Ch 08** — Browser `prompt()` and Node.js `readline`-based user input
+- **Ch 01–08** — Core JavaScript syntax, operators, conditions, and input handling
+- **Ch 09–15** — Loops, arrays, functions, strings, objects, and nested structures
+- **Ch 16–19** — Async programming and modular JavaScript
+- **Ch 20–22** — Object-oriented programming, encapsulation, and inheritance
 
 ## IQ Notes
 

@@ -1,0 +1,23 @@
+class TestRunner {
+  static totalTests = 0;
+  static passCount = 0;
+  constructor(name, passed){
+    this.name = name;
+    TestRunner.totalTests++;  //1
+    if(passed){
+      TestRunner.passCount++; //1
+    }
+  }
+  non_Static_display(){
+    return this.name;
+  }
+  static summary(){
+    return TestRunner.passCount + "/" + TestRunner.totalTests +" passed";
+  }
+}
+new TestRunner("login", true);
+new TestRunner("Signup", false);
+new TestRunner("Cart", true);
+new TestRunner("Checkout", true);
+
+console.log(TestRunner.summary());
